@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* body design */
+
+body{
+
+    font-family:Arial;
+
+    background:#0f172a;
+
+    color:white;
+}
+
+/* navbar */
+
+nav{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:25px 60px;
+
+    background:#111827;
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+}
+
+nav ul li{
+
+    margin-left:25px;
+
+    cursor:pointer;
+}
+
+/* hero section */
+
+.hero{
+
+    display:flex;
+
+    justify-content:space-around;
+
+    align-items:center;
+
+    padding:80px 60px;
+}
+
+.content h2{
+
+    font-size:50px;
+
+    margin-bottom:20px;
+}
+
+.content p{
+
+    width:400px;
+
+    line-height:28px;
+}
+
+button{
+
+    margin-top:25px;
+
+    padding:14px 28px;
+
+    background:#2563eb;
+
+    border:none;
+
+    color:white;
+
+    border-radius:8px;
+
+    cursor:pointer;
+}
+
+/* image */
+
+.image img{
+
+    width:320px;
+}
+
+/* feature boxes */
+
+.features{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    padding-bottom:60px;
+}
+
+.box{
+
+    background:#1e293b;
+
+    padding:25px;
+
+    width:250px;
+
+    border-radius:12px;
+
+    text-align:center;
+}
+
+/* footer */
+
+footer{
+
+    background:#111827;
+
+    text-align:center;
+
+    padding:20px;
+}

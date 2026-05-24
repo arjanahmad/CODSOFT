@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ArJaaN Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- navbar start -->
+
+    <nav>
+
+        <h2 class="logo">ArJaaN</h2>
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!-- hero section -->
+
+    <section class="hero" id="home">
+
+        <div class="left">
+
+            <h1>Hello I'm <span>ArJaaN</span></h1>
+
+            <h3 id="typing"></h3>
+
+            <p>
+
+                BCA Graduate passionate about web development and frontend designing.
+                I enjoy creating responsive and user friendly websites.
+
+            </p>
+
+            <div class="btns">
+
+                <button onclick="hireMe()">Hire Me</button>
+
+                <!-- resume download -->
+
+                <a href="resume.pdf" download class="resume-btn">
+
+                    Download Resume
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="right">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+        </div>
+
+    </section>
+
+    <!-- about section -->
+
+    <section class="about" id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+
+            I am a BCA graduate with strong interest in frontend web development.
+            I like creating modern websites and learning new technologies.
+
+        </p>
+
+        <div class="about-boxes">
+
+            <div class="info-card">
+
+                <h3>Education</h3>
+
+                <p>BCA Graduate From SRMU Lucknow</p>
+
+            </div>
+
+            <div class="info-card">
+
+                <h3>Experience</h3>
+
+                <p>Frontend Projects and Practice Work</p>
+
+            </div>
+
+            <div class="info-card">
+
+                <h3>Goal</h3>
+
+                <p>Become a Full Stack Developer</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- skills section -->
+
+    <section class="skills" id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="skill-box">
+
+            <div class="card"
+                onclick="showSkill('HTML is used to create structure of websites')">
+
+                HTML
+
+            </div>
+
+            <div class="card"
+                onclick="showSkill('CSS is used for styling and responsive design')">
+
+                CSS
+
+            </div>
+
+            <div class="card"
+                onclick="showSkill('JavaScript adds functionality and interactivity')">
+
+                JavaScript
+
+            </div>
+
+            <div class="card"
+                onclick="showSkill('GitHub is used to manage projects and code')">
+
+                GitHub
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- projects -->
+
+    <section class="projects" id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card"
+                onclick="projectInfo('Calculator project created using HTML CSS and JavaScript')">
+
+                <h3>Calculator</h3>
+
+                <p>Modern calculator using JavaScript.</p>
+
+            </div>
+
+            <div class="project-card"
+                onclick="projectInfo('Responsive gaming landing page project')">
+
+                <h3>Landing Page</h3>
+
+                <p>Gaming landing page website.</p>
+
+            </div>
+
+            <div class="project-card"
+                onclick="projectInfo('Personal portfolio website project')">
+
+                <h3>Portfolio</h3>
+
+                <p>Responsive portfolio website.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>Email : arjaan@gmail.com</p>
+
+        <p>Phone : +91 9876543210</p>
+
+        <button onclick="contactMsg()">Send Message</button>
+
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+
+        <p>Made with ❤️ by ArJaaN</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
