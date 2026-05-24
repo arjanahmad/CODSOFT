@@ -1,93 +1,141 @@
+
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
-    <title>Gaming Landing Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjan Landing Page</title>
 
     <link rel="stylesheet" href="style.css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-    <!-- navbar -->
+    <!-- Navbar -->
 
-    <nav>
+    <header>
+        <nav>
+            <h2 class="logo">Arjan</h2>
 
-        <h1>GameX</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-        <ul>
+            <button id="darkModeBtn">🌙</button>
+        </nav>
+    </header>
 
-            <li>Home</li>
-            <li>Features</li>
-            <li>Products</li>
-            <li>Contact</li>
 
-        </ul>
+    <!-- Hero Section -->
 
-    </nav>
+    <section class="hero" id="home">
 
-    <!-- hero section -->
-
-    <section class="hero">
-
-        <div class="content">
-
-            <h2>Best Gaming Headphones</h2>
+        <div class="hero-left">
+            <h1>Build Modern Websites With Arjan</h1>
 
             <p>
-                Experience amazing sound quality with premium gaming headphones.
+                Creative frontend developer creating responsive,
+                fast and modern websites using HTML, CSS and JavaScript.
             </p>
 
-            <button>Shop Now</button>
-
+            <div class="hero-buttons">
+                <a href="#services" class="btn">Get Started</a>
+                <a href="#contact" class="btn2">Contact Me</a>
+            </div>
         </div>
 
-        <div class="image">
 
-            <img src="https://cdn-icons-png.flaticon.com/512/686/686589.png">
+        <div class="hero-right">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Developer">
+        </div>
+
+    </section>
+
+
+    <!-- Features -->
+
+    <section class="features" id="features">
+
+        <h2 class="section-title">Features</h2>
+
+        <div class="feature-container">
+
+            <div class="card">
+                <h3>Responsive Design</h3>
+                <p>Fully responsive website for mobile, tablet and desktop.</p>
+            </div>
+
+            <div class="card">
+                <h3>Modern UI</h3>
+                <p>Clean and premium user interface with smooth animations.</p>
+            </div>
+
+            <div class="card">
+                <h3>Fast Performance</h3>
+                <p>Optimized layout with lightweight modern structure.</p>
+            </div>
 
         </div>
 
     </section>
 
-    <!-- feature section -->
 
-    <section class="features">
+    <!-- Services -->
 
-        <div class="box">
+    <section class="services" id="services">
 
-            <h3>High Sound</h3>
+        <h2 class="section-title">Services</h2>
 
-            <p>Crystal clear gaming audio.</p>
+        <div class="service-container">
 
-        </div>
+            <div class="service-box">
+                <h3>Landing Pages</h3>
+                <p>Professional business landing pages with modern layouts.</p>
+            </div>
 
-        <div class="box">
+            <div class="service-box">
+                <h3>Portfolio Websites</h3>
+                <p>Personal portfolio websites with responsive designs.</p>
+            </div>
 
-            <h3>RGB Lights</h3>
-
-            <p>Cool gaming look and design.</p>
-
-        </div>
-
-        <div class="box">
-
-            <h3>Long Battery</h3>
-
-            <p>Play games for hours.</p>
+            <div class="service-box">
+                <h3>Frontend Projects</h3>
+                <p>Interactive frontend web projects using JavaScript.</p>
+            </div>
 
         </div>
 
     </section>
+
+
+    <!-- Contact -->
+
+    <section class="contact" id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>Email : arjanahmad7861@gmail.com</p>
+        <p>Phone : +91 6388451366</p>
+
+        <a href="mailto:arjanahmad7861@gmail.com" class="contact-btn">
+            Send Message
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
 
     <footer>
-
-        <p>Landing Page Project by ArJaaN</p>
-
+        <p>© 2026 Arjan. All Rights Reserved.</p>
     </footer>
 
-</body>
 
+    <script src="script.js"></script>
+
+</body>
 </html>

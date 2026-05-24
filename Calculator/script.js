@@ -1,37 +1,42 @@
-// value add karne ke liye function
+const display = document.getElementById("display");
 
-function append(value){
 
-    document.getElementById("screen").value += value;
+// Add Values
 
+function appendValue(value){
+
+    display.value += value;
 }
 
-/* poora screen clear */
 
-function clearScreen(){
+// Clear Display
 
-    document.getElementById("screen").value = "";
+function clearDisplay(){
 
+    display.value = "";
 }
 
-// last value remove karega
 
-function removeOne(){
+// Delete Last Character
 
-    let current = document.getElementById("screen").value;
+function deleteLast(){
 
-    document.getElementById("screen").value = current.slice(0,-1);
-
+    display.value = display.value.slice(0,-1);
 }
 
-/* calculation logic */
+
+// Calculate Result
 
 function calculate(){
 
-    let data = document.getElementById("screen").value;
+    try{
 
-    let result = eval(data);
+        display.value = eval(display.value);
 
-    document.getElementById("screen").value = result;
+    }
 
+    catch{
+
+        display.value = "Error";
+    }
 }

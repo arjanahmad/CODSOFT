@@ -196,6 +196,9 @@ button:hover{
 .right img{
 
     width:320px;
+    height:320px;
+    border-radius:50%;
+    object-fit:cover;
 }
 
 /* common section */
@@ -349,4 +352,13 @@ footer{
     text-align:center;
 
     padding:20px;
+}
+
+.contact-btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background: #251ca0;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
 }
